@@ -1,0 +1,27 @@
+{
+  "name": "img-sal",
+  "version": "1.0.0",
+  "description": "Image Search Abstraction Layer Microservice",
+  "main": "server.js",
+  "engines": {
+    "node": "4.7.3",
+    "npm": "2.15.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "M1Gi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.10.1",
+    "morgan": "^1.8.1",
+    "node-bing-api": "^3.2.1",
+    "serve-favicon": "^2.4.3"
+  }
+}

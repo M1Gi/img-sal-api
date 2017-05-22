@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1 M1Gi's Image Search Abstraction Layer Microservice
+    h2 User Stories
+    ul
+        li I can get the image URLs, alt text and page URLs for a set of images related to a given string.
+        li I can paganate through the responses by adding a ?offset=2 parameter to the URL.
+        li I can get a list of the most recently submitted search strings.
+    h2 How to use:
+    h3 To make a search:
+    code https://imgsalms.herokuapp.com/api/trees
+    br
+    code https://imgsalms.herokuapp.com/api/funny goats
+    h3 To make a search and define the number of results to return:
+    code https://imgsalms.herokuapp.com/api/space?offset=5
+    h3 To view latest searches:
+    code https://imgsalms.herokuapp.com/api/view/history
